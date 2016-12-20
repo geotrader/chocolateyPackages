@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cfiler</id>
+    <version>2.45</version>
+    <title>内骨格</title>
+    <authors>craftware</authors>
+    <projectUrl>https://sites.google.com/site/craftware/cfiler</projectUrl>
+    <iconUrl>http://crftwr.github.io/cfiler/doc/icon.png</iconUrl>
+    <projectSourceUrl>https://github.com/crftwr/cfiler</projectSourceUrl>
+    <docsUrl>http://crftwr.github.io/cfiler/doc/</docsUrl>
+    <tags>file manager windows python foss</tags>
+    <summary>python based file manager</summary>
+
+    <description>
+    - wip
+    </description>
+
+    <dependencies>
+      <dependency id="vcredist2015" />
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
