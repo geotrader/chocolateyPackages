@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>clnch</id>
+    <version>3.33</version>
+    <title>CraftLaunch</title>
+    <authors>craftware</authors>
+    <projectUrl>https://sites.google.com/site/craftware/clnch</projectUrl>
+    <iconUrl>http://crftwr.github.io/clnch/doc/icon.png</iconUrl>
+    <projectSourceUrl>https://github.com/crftwr/clnch</projectSourceUrl>
+    <docsUrl>http://crftwr.github.io/clnch/doc/</docsUrl>
+    <tags>launcher windows python foss</tags>
+    <summary>python based command launcher</summary>
+
+    <description>
+    - wip
+    </description>
+
+    <dependencies>
+      <dependency id="vcredist2015" />
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
