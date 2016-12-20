@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>keyhac</id>
+    <version>1.76</version>
+    <title>keyhac</title>
+    <authors>craftware</authors>
+    <projectUrl>https://sites.google.com/site/craftware/keyhac-en</projectUrl>
+    <iconUrl>https://sites.google.com/site/craftware/_/rsrc/1451698234807/keyhac-ja/icon128.png</iconUrl>
+    <projectSourceUrl>https://github.com/crftwr/keyhac</projectSourceUrl>
+    <docsUrl>http://crftwr.github.io/keyhac/doc/en/</docsUrl>
+    <tags>automation hotkeys scripting windows python foss</tags>
+    <summary>python based key customization utility</summary>
+
+    <description>
+    - Customize the keyboard input.
+    - Describe the configuration file in Python script language.
+    - Can replace key input with different key input.
+    - Can execute any actions described in Python, on key input.
+    - Can define different keymaps for each application.
+    - Resident in tasktray.
+    - Can move windows by keyboard.
+    - Can activate windows by keyboard.
+    - Can operate mouse pointer by keyboard. (Mac version doesn't support yet)
+    - Can launch applications.
+    - Can define modifier keys additionally.
+    - Can define "One shot modifier"
+    - Has clipboard history feature.
+    - Can record and replay keyboard macros
+    </description>
+
+    <dependencies>
+      <dependency id="vcredist2015" />
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
