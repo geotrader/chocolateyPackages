@@ -6,6 +6,7 @@
     <title>内骨格</title>
     <authors>craftware</authors>
     <projectUrl>https://sites.google.com/site/craftware/cfiler</projectUrl>
+    <copyright>Copyright © 2015 craftware. All rights reserved.</copyright>
     <iconUrl>http://crftwr.github.io/cfiler/doc/icon.png</iconUrl>
     <projectSourceUrl>https://github.com/crftwr/cfiler</projectSourceUrl>
     <docsUrl>http://crftwr.github.io/cfiler/doc/</docsUrl>
@@ -13,7 +14,7 @@
     <summary>python based file manager</summary>
 
     <description>
-    - wip
+    python based file manager
     </description>
 
     <dependencies>
