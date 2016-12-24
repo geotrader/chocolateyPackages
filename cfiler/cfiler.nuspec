@@ -13,11 +13,9 @@
     <docsUrl>http://crftwr.github.io/cfiler/doc/</docsUrl>
     <tags>file manager windows python foss</tags>
     <summary>python based file manager</summary>
-
     <description>
     python based file manager
     </description>
-
     <dependencies>
       <dependency id="vcredist2015" version="14.0.23918.0"/>
     </dependencies>
