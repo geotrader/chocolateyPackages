@@ -6,6 +6,7 @@
     <title>CraftLaunch</title>
     <authors>craftware</authors>
     <projectUrl>https://sites.google.com/site/craftware/clnch</projectUrl>
+    <licenseUrl>https://github.com/crftwr/clnch/tree/master/license</licenseUrl>
     <copyright>Copyright © 2015 craftware. All rights reserved.</copyright>
     <iconUrl>http://crftwr.github.io/clnch/doc/icon.png</iconUrl>
     <projectSourceUrl>https://github.com/crftwr/clnch</projectSourceUrl>
@@ -17,7 +18,7 @@
     </description>
 
     <dependencies>
-      <dependency id="vcredist2015" />
+      <dependency id="vcredist2015" version="14.0.23918.0" />
     </dependencies>
   </metadata>
 
