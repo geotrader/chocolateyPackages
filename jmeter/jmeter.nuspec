@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if Ω doesn't appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>jmeter</id>
-    <title>Apache JMeter</title>
     <version>3.1</version>
+    <title>Apache JMeter</title>
     <authors>Apache Software Foundation</authors>
+    <projectUrl>http://jmeter.apache.org/</projectUrl>
+    <iconUrl>http://jmeter.apache.org/images/jmeter.png</iconUrl>
+    <copyright>Copyright © 1999 – 2016 , Apache Software Foundation</copyright>
+    <licenseUrl>http://www.apache.org/licenses/</licenseUrl>
+    <tags>jmeter java admin web load test</tags>
     <summary>The Apache JMeter™ desktop application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.</summary>
     <description>Apache JMeter may be used to test performance both on static and dynamic resources (Files, Web dynamic languages - PHP, Java, ASP.NET, etc. - Java Objects, Data Bases and Queries, FTP Servers and more). It can be used to simulate a heavy load on a server, group of servers, network or object to test its strength or to analyze overall performance under different load types. You can use it to make a graphical analysis of performance or to test your server/script/object behavior under heavy concurrent load.</description>
-    <projectUrl>http://jmeter.apache.org/</projectUrl>
-    <tags>jmeter java admin web load test</tags>
-    <copyright>Copyright © 1999 – 2016 , Apache Software Foundation</copyright>
-    <licenseUrl>http://www.apache.org/licenses/</licenseUrl> <!-- Yes, this is the license URL linked to on JMeter's page -->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>http://jmeter.apache.org/images/logo.svg</iconUrl>
     <dependencies>
       <dependency id="javaruntime" version="7.0" />
     </dependencies>
-    <releaseNotes></releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
