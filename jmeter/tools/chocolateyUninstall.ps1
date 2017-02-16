@@ -1,12 +1,11 @@
-﻿$ErrorActionPreference = 'Stop'
-
-$toolsPath   = Split-Path -parent $MyInvocation.MyCommand.Definition
-
-$packageArgs = @{
-  packageName    = 'jmeter'
-  url            = 'http://archive.apache.org/dist/jmeter/binaries/apache-jmeter-3.1.zip'
-  checksum = '71DDFDFC324D8877C4DA0DFBE9A860C5C10F5D233F4D84B2055252C0CDF76A6E'
-  checksumType   = 'sha256'
-  unzipLocation  = $toolsPath
+﻿$packageName = 'jmeter'
+ 
+try {
+  # Remove custom shim
+  rm $env:ChocolateyInstall\bin\jmeter.bat
+  Write-ChocolateySuccess $packageName
+ 
+} catch {
+  Write-ChocolateyFailure $packageName $($_.Exception.Message)
+  throw 
 }
-Install-ChocolateyZipPackage @packageArgs
