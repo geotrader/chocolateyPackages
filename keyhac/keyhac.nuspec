@@ -5,6 +5,7 @@
     <version>1.76</version>
     <title>Keyhac</title>
     <authors>craftware</authors>
+    <owners>geo_trader</owners>
     <projectUrl>https://sites.google.com/site/craftware/keyhac-en</projectUrl>
     <licenseUrl>https://github.com/crftwr/keyhac/tree/master/license</licenseUrl>
     <copyright>Copyright © 2015 craftware. All rights reserved.</copyright>

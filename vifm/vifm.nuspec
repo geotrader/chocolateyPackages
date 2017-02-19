@@ -5,6 +5,7 @@
     <version>0.8.2</version>
     <title>Vifm</title>
     <authors>Ken Steen</authors>
+    <owners>geo_trader</owners>
     <projectUrl>http://vifm.info/</projectUrl>
     <licenseUrl>https://github.com/vifm/vifm/blob/master/COPYING</licenseUrl>
     <iconUrl>https://cdn.rawgit.com/vifm/vifm/07bdc80c/data/graphics/vifm.png</iconUrl>

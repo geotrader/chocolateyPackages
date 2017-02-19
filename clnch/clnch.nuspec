@@ -5,6 +5,7 @@
     <version>3.33</version>
     <title>CraftLaunch</title>
     <authors>craftware</authors>
+    <owners>geo_trader</owners>
     <projectUrl>https://sites.google.com/site/craftware/clnch</projectUrl>
     <licenseUrl>https://github.com/crftwr/clnch/tree/master/license</licenseUrl>
     <copyright>Copyright © 2015 craftware. All rights reserved.</copyright>

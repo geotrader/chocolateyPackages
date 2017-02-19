@@ -5,6 +5,7 @@
     <version>2.45</version>
     <title>CraftFiler</title>
     <authors>craftware</authors>
+    <owners>geo_trader</owners>
     <projectUrl>https://sites.google.com/site/craftware/cfiler</projectUrl>
     <licenseUrl>https://github.com/crftwr/cfiler/tree/master/license</licenseUrl>
     <copyright>Copyright © 2015 craftware. All rights reserved.</copyright>
