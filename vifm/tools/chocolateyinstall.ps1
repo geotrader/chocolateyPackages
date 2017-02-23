@@ -13,3 +13,15 @@ $packageArgs = @{
   unzipLocation  = $toolsPath
 }
 Install-ChocolateyZipPackage @packageArgs
+
+
+# exclude generate shim(s)
+$ignoreWinHelper = 'win_helper.exe.ignore'
+
+if ((Get-ProcessorBits 64) -and ($env:chocolateyForceX86 -ne 'true')) {
+    $zipName = [System.IO.Path]::GetFileNameWithoutExtension($packageArgs.url64bit)
+}else{
+    $zipName = [System.IO.Path]::GetFileNameWithoutExtension($packageArgs.url)
+}
+
+New-Item "${toolsPath}\${zipName}\${ignoreWinHelper}" -type file -force | Out-Null
