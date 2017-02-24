@@ -14,11 +14,10 @@
     <docsUrl>http://crftwr.github.io/keyhac/doc/en/</docsUrl>
     <tags>automation hotkeys scripting windows python foss</tags>
     <summary>python based key customization utility</summary>
-
+    <packageSourceUrl>https://github.com/geotrader/chocolateyPackages/tree/develop/keyhac</packageSourceUrl>
     <description>
         customize key input
     </description>
-
     <dependencies>
       <dependency id="vcredist2015" version="14.0.23918.0"/>
     </dependencies>
