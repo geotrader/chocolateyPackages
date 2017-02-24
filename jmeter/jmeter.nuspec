@@ -8,6 +8,8 @@
     <owners>geo_trader</owners>
     <projectUrl>http://jmeter.apache.org/</projectUrl>
     <iconUrl>http://jmeter.apache.org/images/jmeter.png</iconUrl>
+    <projectSourceUrl>https://github.com/apache/jmeter</projectSourceUrl>
+    <docsUrl>http://jmeter.apache.org/usermanual/</docsUrl>
     <copyright>Copyright © 1999 – 2016 , Apache Software Foundation</copyright>
     <licenseUrl>http://www.apache.org/licenses/</licenseUrl>
     <tags>jmeter java admin web load test</tags>
