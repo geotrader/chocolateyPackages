@@ -17,6 +17,7 @@ Install-ChocolateyZipPackage @packageArgs
 # Custom batch shim
 try {
   cp $toolsPath\jmeter.bat $env:ChocolateyInstall\bin
+  cp $toolsPath\jmeterw.cmd $env:ChocolateyInstall\bin
 } catch {
   throw $_.Exception.Message
 }
