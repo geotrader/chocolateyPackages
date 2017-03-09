@@ -12,7 +12,7 @@
     <docsUrl>http://jmeter.apache.org/usermanual/</docsUrl>
     <copyright>Copyright © 1999 – 2016 , Apache Software Foundation</copyright>
     <licenseUrl>http://www.apache.org/licenses/</licenseUrl>
-    <tags>jmeter java admin web load test</tags>
+    <tags>jmeter java web load test</tags>
     <releaseNotes>http://jmeter.apache.org/changes.html</releaseNotes>
     <summary>The Apache JMeter™ desktop application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.</summary>
     <packageSourceUrl>https://github.com/geotrader/chocolateyPackages/tree/develop/jmeter</packageSourceUrl>
