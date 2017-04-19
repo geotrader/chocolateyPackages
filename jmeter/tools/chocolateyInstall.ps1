@@ -4,11 +4,11 @@ $toolsPath   = Split-Path -parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
   packageName    = 'jmeter'
-  url            = 'http://archive.apache.org/dist/jmeter/binaries/apache-jmeter-3.1.zip'
-  url64bit       = 'http://archive.apache.org/dist/jmeter/binaries/apache-jmeter-3.1.zip'
-  checksum       = '71DDFDFC324D8877C4DA0DFBE9A860C5C10F5D233F4D84B2055252C0CDF76A6E'
+  url            = 'http://archive.apache.org/dist/jmeter/binaries/apache-jmeter-3.2.zip'
+  url64bit       = 'http://archive.apache.org/dist/jmeter/binaries/apache-jmeter-3.2.zip'
+  checksum       = '5A4EFC5A0D195004481BF899468B025D98F4EB161F04F6497B1D101EFB97E798'
   checksumType   = 'sha256'
-  checksum64     = '71DDFDFC324D8877C4DA0DFBE9A860C5C10F5D233F4D84B2055252C0CDF76A6E'
+  checksum64     = '5A4EFC5A0D195004481BF899468B025D98F4EB161F04F6497B1D101EFB97E798'
   checksumType64 = 'sha256'
   unzipLocation  = $toolsPath
 }
