@@ -12,7 +12,8 @@
     <docsUrl>http://jmeter.apache.org/usermanual/</docsUrl>
     <copyright>Copyright © 1999 – 2016 , Apache Software Foundation</copyright>
     <licenseUrl>http://www.apache.org/licenses/</licenseUrl>
-    <tags>jmeter java admin web load test</tags>
+    <tags>jmeter java web load test</tags>
+    <releaseNotes>http://jmeter.apache.org/changes.html</releaseNotes>
     <summary>The Apache JMeter™ desktop application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.</summary>
     <packageSourceUrl>https://github.com/geotrader/chocolateyPackages/tree/develop/jmeter</packageSourceUrl>
     <description>Apache JMeter may be used to test performance both on static and dynamic resources (Files, Web dynamic languages - PHP, Java, ASP.NET, etc. - Java Objects, Data Bases and Queries, FTP Servers and more). It can be used to simulate a heavy load on a server, group of servers, network or object to test its strength or to analyze overall performance under different load types. You can use it to make a graphical analysis of performance or to test your server/script/object behavior under heavy concurrent load.</description>
