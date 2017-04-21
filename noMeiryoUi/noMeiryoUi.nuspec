@@ -12,7 +12,7 @@
     <projectSourceUrl>https://github.com/Tatsu-syo/noMeiryoUI</projectSourceUrl>
     <tags>foss system font change</tags>
     <summary>No!! MeiryoUI is Windows system font setting tool on Windows 8.1/10.</summary>
-    <packageSourceUrl>https://github.com/geotrader/chocolateyPackages/tree/develop/noMeiryoUi</packageSourceUrl>
+    <packageSourceUrl>https://github.com/geotrader/chocolateyPackages/tree/master/noMeiryoUi</packageSourceUrl>
     <description>
     Nomaly, We use regedit for change system fonts default to others.
     This software can changes it with only one click.

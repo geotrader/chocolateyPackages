@@ -14,7 +14,7 @@
     <docsUrl>http://crftwr.github.io/cfiler/doc/</docsUrl>
     <tags>file manager windows python foss</tags>
     <summary>python based file manager</summary>
-    <packageSourceUrl>https://github.com/geotrader/chocolateyPackages/tree/develop/cfiler</packageSourceUrl>
+    <packageSourceUrl>https://github.com/geotrader/chocolateyPackages/tree/master/cfiler</packageSourceUrl>
     <description>
     python based file manager
     </description>

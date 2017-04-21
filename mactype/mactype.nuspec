@@ -11,7 +11,7 @@
     <projectSourceUrl>https://github.com/snowie2000/mactype</projectSourceUrl>
     <tags>foss font rasterilzer</tags>
     <summary>A better font rasterizer for Windows.</summary>
-    <packageSourceUrl>https://github.com/geotrader/chocolateyPackages/tree/develop/mactype</packageSourceUrl>
+    <packageSourceUrl>https://github.com/geotrader/chocolateyPackages/tree/master/mactype</packageSourceUrl>
     <description>
     A brand new product which turns your windows into a Mac! With the power of freetype, it can render your windows font smoothly and much more convenient to read.
     </description>

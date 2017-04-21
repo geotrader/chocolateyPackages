@@ -14,7 +14,7 @@
     <docsUrl>http://crftwr.github.io/clnch/doc/</docsUrl>
     <tags>launcher windows python foss</tags>
     <summary>python based command launcher</summary>
-    <packageSourceUrl>https://github.com/geotrader/chocolateyPackages/tree/develop/clnch</packageSourceUrl>
+    <packageSourceUrl>https://github.com/geotrader/chocolateyPackages/tree/master/clnch</packageSourceUrl>
     <description>
     </description>
     <dependencies>
