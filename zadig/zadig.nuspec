@@ -7,7 +7,7 @@
     <authors>Pete Batard/Akeo</authors>
     <owners>geo_trader</owners>
     <projectUrl>http://zadig.akeo.ie/</projectUrl>
-    <iconUrl>https://github.com/pbatard/libwdi/blob/master/examples/zadig.ico</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/pbatard/libwdi/master/examples/zadig.ico</iconUrl>
     <projectSourceUrl>https://github.com/pbatard/libwdi</projectSourceUrl>
     <docsUrl>https://github.com/pbatard/libwdi/wiki/Zadig</docsUrl>
     <copyright>Copyright © 2013-2017 Pete Batard/Akeo</copyright>
