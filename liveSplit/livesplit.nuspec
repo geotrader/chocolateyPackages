@@ -7,13 +7,13 @@
     <authors>CryZe and wooferzfg1</authors>
     <owners>geo_trader</owners>
     <projectUrl>http://livesplit.org/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/kraftydinosaur/Chocolatey-Packages/master/LiveSplit/icon.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/LiveSplit/LiveSplit/a8ff53a35c0ec5a43aeb7055b7ee77afec87c3c7/LiveSplit/Resources/Icon.png</iconUrl>
     <projectSourceUrl>https://github.com/LiveSplit/LiveSplit</projectSourceUrl>
     <docsUrl>http://livesplit.org/introduction/</docsUrl>
     <copyright>Copyright (c) 2013-2017 Christopher Serr and Sergey Papushin</copyright>
     <licenseUrl>https://github.com/LiveSplit/LiveSplit/blob/master/LICENSE</licenseUrl>
     <tags>speedruns timer split game</tags>
-    <!-- <releaseNotes>On twitter https://twitter.com/LiveSplit</releaseNotes> -->
+    <releaseNotes>https://github.com/LiveSplit/LiveSplit/releases/tag/1.7.4</releaseNotes>
     <summary>LiveSplit is a timer program for speedrunners that is both easy to use and full of features.</summary>
     <packageSourceUrl>https://github.com/geotrader/chocolateyPackages/tree/master/liveSplit</packageSourceUrl>
     <description>LiveSplit is a timer program for speedrunners that is both easy to use and full of features.</description>
