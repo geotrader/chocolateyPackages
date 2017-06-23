@@ -10,3 +10,14 @@ $packageArgs = @{
   unzipLocation  = $toolsPath
 }
 Install-ChocolateyZipPackage @packageArgs
+
+# exclude generate shim(s)
+$ignoreFiles = @(
+  'LiveSplit.Register.exe.ignore'
+)
+
+$zipName = [System.IO.Path]::GetFileNameWithoutExtension($packageArgs.url)
+
+foreach($ignoreFile in $ignoreFiles) {
+  New-Item "${toolsPath}\${zipName}\${ignoreFile}" -type file -force | Out-Null
+}
