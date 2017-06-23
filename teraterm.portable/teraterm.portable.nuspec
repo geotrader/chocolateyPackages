@@ -8,7 +8,7 @@
     <owners>geo_trader</owners>
     <licenseUrl>https://ttssh2.osdn.jp/manual/en/about/copyright.html</licenseUrl>
     <projectUrl>https://ttssh2.osdn.jp/</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/TeraTermProject/chocolatey-package/master/icons/teraterm.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/geotrader/chocolateyPackages/master/teraterm.portable/icons/teraterm.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Tera Term is free software terminal emulator which supports:
 
