@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>jmeter</id>
-    <version>3.2.20170420</version>
+    <version>3.3</version>
     <title>Apache JMeter</title>
     <authors>Apache Software Foundation</authors>
     <owners>geo_trader</owners>

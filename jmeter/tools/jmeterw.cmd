@@ -1,1 +1,1 @@
-@call %ChocolateyInstall%\lib\jmeter\tools\apache-jmeter-3.2\bin\jmeterw.cmd %*
+@call %ChocolateyInstall%\lib\jmeter\tools\apache-jmeter-3.3\bin\jmeterw.cmd %*

@@ -4,12 +4,9 @@ $toolsPath   = Split-Path -parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
   packageName    = 'jmeter'
-  url            = 'http://archive.apache.org/dist/jmeter/binaries/apache-jmeter-3.2.zip'
-  url64bit       = 'http://archive.apache.org/dist/jmeter/binaries/apache-jmeter-3.2.zip'
-  checksum       = '5A4EFC5A0D195004481BF899468B025D98F4EB161F04F6497B1D101EFB97E798'
-  checksumType   = 'sha256'
-  checksum64     = '5A4EFC5A0D195004481BF899468B025D98F4EB161F04F6497B1D101EFB97E798'
-  checksumType64 = 'sha256'
+  url            = 'http://archive.apache.org/dist/jmeter/binaries/apache-jmeter-3.3.zip'
+  checksum       = '23C72D38F2AB45B4D21349610578AA84829F58CBBC9239196B5C2D7168460E88D863ADD8708E9C3048841FE4FBC1C410213BFE7A0DF04368910FFEAB99BA1F02'
+  checksumType   = 'sha512'
   unzipLocation  = $toolsPath
 }
 Install-ChocolateyZipPackage @packageArgs
