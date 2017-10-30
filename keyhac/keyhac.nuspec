@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>keyhac</id>
-    <version>1.76</version>
+    <version>1.77</version>
     <title>Keyhac</title>
     <authors>craftware</authors>
     <owners>geo_trader</owners>
@@ -13,6 +13,7 @@
     <projectSourceUrl>https://github.com/crftwr/keyhac</projectSourceUrl>
     <docsUrl>http://crftwr.github.io/keyhac/doc/en/</docsUrl>
     <tags>automation hotkeys scripting windows python foss</tags>
+    <releaseNotes>https://github.com/crftwr/keyhac/blob/master/doc/changes.txt</releaseNotes>
     <summary>python based key customization utility</summary>
     <packageSourceUrl>https://github.com/geotrader/chocolateyPackages/tree/master/keyhac</packageSourceUrl>
     <description>
