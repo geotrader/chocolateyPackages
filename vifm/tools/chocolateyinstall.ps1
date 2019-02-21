@@ -4,12 +4,12 @@ $toolsPath   = Split-Path -parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
   packageName    = 'vifm'
-  url            = 'https://github.com/vifm/vifm/releases/download/v0.9/vifm-w32-se-0.9-binary.zip'
-  url64bit       = 'https://github.com/vifm/vifm/releases/download/v0.9/vifm-w64-se-0.9-binary.zip'
-  checksum       = '058A8EB32D32E9C463054FB264781DA8249B49C34706760C2F9BCCFC99030E20'
-  checksumType   = 'sha256'
-  checksum64     = '3E8193F8A5FFC0FC35F4B40DAB79CA647446E9B85592A890BDFACC7D336150C6'
-  checksumType64 = 'sha256'
+  url            = 'https://github.com/vifm/vifm/releases/download/v0.10/vifm-w32-se-0.10-binary.zip'
+  url64bit       = 'https://github.com/vifm/vifm/releases/download/v0.10/vifm-w64-se-0.10-binary.zip'
+  checksum       = 'E85A8782C4BB30E6CDEEC638442DA44B03826C4A6DA069BB5A2BBEDFF25C337399A9721C3D46A538EE16426CF3D9F86503BD1B76B7232D1FFED613FC46EF7CD7'
+  checksumType   = 'sha512'
+  checksum64     = '186E39DE311B6E8EDEAD57C159790F05C620E2387DD7DB5B9EB52DBD4B23463274328A68E0905CB70050C8D58E6F64DE49E01EB940660BA7B3F9E03E802A306E'
+  checksumType64 = 'sha512'
   unzipLocation  = $toolsPath
 }
 Install-ChocolateyZipPackage @packageArgs
