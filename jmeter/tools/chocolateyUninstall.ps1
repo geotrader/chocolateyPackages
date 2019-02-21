@@ -5,3 +5,10 @@ try {
 } catch {
   throw $_.Exception.Message
 }
+
+# remove registrated environments
+try {
+  [Environment]::SetEnvironmentVariable('JMETER_HOME', '', 'Machine')
+} catch {
+  throw $_.Exception.Message
+}

@@ -18,3 +18,12 @@ try {
 } catch {
   throw $_.Exception.Message
 }
+
+# environments registration
+$zipName = [System.IO.Path]::GetFileNameWithoutExtension($packageArgs.url)
+$env:JMETER_HOME = Join-Path $toolsPath $zipName
+try {
+  [Environment]::SetEnvironmentVariable('JMETER_HOME', $env:JMETER_HOME, 'Machine')
+} catch {
+  throw $_.Exception.Message
+}
