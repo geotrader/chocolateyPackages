@@ -11,7 +11,7 @@
     <projectSourceUrl>https://github.com/pbatard/libwdi</projectSourceUrl>
     <docsUrl>https://github.com/pbatard/libwdi/wiki/Zadig</docsUrl>
     <copyright>Copyright © 2013-2017 Pete Batard/Akeo</copyright>
-    <licenseUrl>https://github.com/pbatard/libwdi/blob/master/examples/zadig_license.h</licenseUrl>
+    <licenseUrl>https://github.com/pbatard/libwdi/blob/master/COPYING</licenseUrl>
     <tags>usb driver foss</tags>
     <releaseNotes>https://github.com/pbatard/libwdi/blob/master/examples/zadig_README.creole</releaseNotes>
     <summary>Zadig is a Windows application that installs generic USB drivers, such as WinUSB, libusb-win32/libusb0.sys or libusbK, to help you access USB devices.</summary>
