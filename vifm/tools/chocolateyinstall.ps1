@@ -4,11 +4,11 @@ $toolsPath   = Split-Path -parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
   packageName    = 'vifm'
-  url            = 'https://github.com/vifm/vifm/releases/download/v0.10/vifm-w32-se-0.10-binary.zip'
-  url64bit       = 'https://github.com/vifm/vifm/releases/download/v0.10/vifm-w64-se-0.10-binary.zip'
-  checksum       = 'E85A8782C4BB30E6CDEEC638442DA44B03826C4A6DA069BB5A2BBEDFF25C337399A9721C3D46A538EE16426CF3D9F86503BD1B76B7232D1FFED613FC46EF7CD7'
+  url            = 'https://github.com/vifm/vifm/releases/download/v0.10.1/vifm-w32-se-0.10.1-binary.zip'
+  url64bit       = 'https://github.com/vifm/vifm/releases/download/v0.10.1/vifm-w64-se-0.10.1-binary.zip'
+  checksum       = '4CCC6FA94AE14C88E29E414090D234F539C2DB230F1931CD7C14FC1AF2569E27D2038BCD6D32C5C38CCD1A33F37AA63DB99CBE0B22512ADBD4A01449873AC6D4'
   checksumType   = 'sha512'
-  checksum64     = '186E39DE311B6E8EDEAD57C159790F05C620E2387DD7DB5B9EB52DBD4B23463274328A68E0905CB70050C8D58E6F64DE49E01EB940660BA7B3F9E03E802A306E'
+  checksum64     = '4F41322204F7C50833BD5886F4AAFA2BBB92576289BA4FEF0B40382E20C19359A9D83BE842C4ABB1EC2CB78876F5EC0767FC58971697CDFF431A55AD7C4246D6'
   checksumType64 = 'sha512'
   unzipLocation  = $toolsPath
 }

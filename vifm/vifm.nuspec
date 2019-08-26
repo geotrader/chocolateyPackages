@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>vifm</id>
-    <version>0.10.0</version>
+    <version>0.10.1</version>
     <title>Vifm</title>
     <authors>Ken Steen</authors>
     <owners>geo_trader</owners>
