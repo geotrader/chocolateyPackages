@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>vifm</id>
-    <version>0.10.1</version>
+    <version>0.11</version>
     <title>Vifm</title>
     <authors>Ken Steen</authors>
     <owners>geo_trader</owners>
@@ -12,7 +12,7 @@
     <projectSourceUrl>https://github.com/vifm/vifm</projectSourceUrl>
     <docsUrl>http://vifm.info/vimdoc.shtml</docsUrl>
     <tags>foss vifm vi vim file manager </tags>
-    <releaseNotes>https://vifm.info/news/2017-06-18.shtml</releaseNotes>
+    <releaseNotes>https://vifm.info/news/2020-09-24.shtml</releaseNotes>
     <summary>Ncurses-based two-panel file manager with vi-like keybindings</summary>
     <packageSourceUrl>https://github.com/geotrader/chocolateyPackages/tree/master/vifm</packageSourceUrl>
     <description>
