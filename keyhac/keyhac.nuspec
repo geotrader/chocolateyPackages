@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>keyhac</id>
-    <version>1.77</version>
+    <version>1.82</version>
     <title>Keyhac</title>
     <authors>craftware</authors>
     <owners>geo_trader</owners>
     <projectUrl>https://sites.google.com/site/craftware/keyhac-en</projectUrl>
     <licenseUrl>https://github.com/crftwr/keyhac/tree/master/license</licenseUrl>
     <copyright>Copyright © 2015 craftware. All rights reserved.</copyright>
-    <iconUrl>https://sites.google.com/site/craftware/_/rsrc/1451698234807/keyhac-ja/icon128.png</iconUrl>
+    <iconUrl>https://github.com/crftwr/keyhac/blob/master/icon.svg</iconUrl>
     <projectSourceUrl>https://github.com/crftwr/keyhac</projectSourceUrl>
     <docsUrl>http://crftwr.github.io/keyhac/doc/en/</docsUrl>
     <tags>automation hotkeys scripting windows python foss</tags>
@@ -20,7 +20,7 @@
         customize key input
     </description>
     <dependencies>
-      <dependency id="vcredist2015" version="14.0.23918.0"/>
+      <dependency id="vcredist140" version="14.28.29910"/>
     </dependencies>
   </metadata>
 
