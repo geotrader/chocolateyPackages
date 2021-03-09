@@ -4,8 +4,8 @@ $toolsPath   = Split-Path -parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
   packageName    = 'cfiler'
-  url            = 'https://crftwr.github.io/cfiler/download/cfiler_249.zip'
-  checksum	 = '934558C5313990620CD23FEE25C668BF1FAC1D5663EC41E45B2E93BD4F5E832A055A5FEAAB93928A0C87582BF218024CF53728047D7FFB81FB1ED23618DFAE61'
+  url            = 'https://crftwr.github.io/cfiler/download/cfiler_261.zip'
+  checksum	     = 'A7E09C65C985F567B3AC9D3FC53D3312E9CE5CBE97E22760069D7B8116642A1C27A04C466A79511F8BF27BD7A3962296D09E84D6B20F35C58DD2A7863C76078B'
   checksumType   = 'sha512'
   unzipLocation  = $toolsPath
 }

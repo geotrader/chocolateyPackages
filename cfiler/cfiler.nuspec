@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>cfiler</id>
-    <version>2.49</version>
+    <version>2.61</version>
     <title>CraftFiler</title>
     <authors>craftware</authors>
     <owners>geo_trader</owners>
@@ -20,7 +20,7 @@
     two pane python based file manager.
     </description>
     <dependencies>
-      <dependency id="vcredist2015" version="14.0.23918.0"/>
+      <dependency id="vcredist140" version="14.28.29910"/>
     </dependencies>
   </metadata>
 
