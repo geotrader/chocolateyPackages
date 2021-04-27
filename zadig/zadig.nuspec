@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>zadig</id>
-    <version>2.4</version>
+    <version>2.5</version>
     <title>Zadig</title>
     <authors>Pete Batard/Akeo</authors>
     <owners>geo_trader</owners>
@@ -10,7 +10,7 @@
     <iconUrl>https://rawcdn.githack.com/pbatard/libwdi/2b0d7a2f9eed1d996f98008d68a165758b7f916d/examples/zadig.ico</iconUrl>
     <projectSourceUrl>https://github.com/pbatard/libwdi</projectSourceUrl>
     <docsUrl>https://github.com/pbatard/libwdi/wiki/Zadig</docsUrl>
-    <copyright>Copyright © 2013-2017 Pete Batard/Akeo</copyright>
+    <copyright>Copyright © 2013-2020 Pete Batard/Akeo</copyright>
     <licenseUrl>https://github.com/pbatard/libwdi/blob/master/COPYING</licenseUrl>
     <tags>usb driver foss</tags>
     <releaseNotes>https://github.com/pbatard/libwdi/blob/master/examples/zadig_README.creole</releaseNotes>

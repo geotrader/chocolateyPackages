@@ -5,8 +5,8 @@ $toolsPath   = Split-Path -parent $MyInvocation.MyCommand.Definition
 $packageArgs = @{
   packageName    = 'zadig'
   fileFullPath   = Join-Path $toolsPath 'zadig.exe'
-  url            = 'https://github.com/pbatard/libwdi/releases/download/b721/zadig-2.4.exe'
-  checksum       = '034093ECE4F6020E6DEE686EBD7E197BA4BDCF10C96F5C1934CD0C8120C1E229B7832D26421802C2D572B322E7ED3FA00D495C7DBF1BAD73D70D22AA7E71219C'
+  url            = 'https://github.com/pbatard/libwdi/releases/download/b730/zadig-2.5.exe'
+  checksum       = 'A9BB1F47C790C8662AEFF985D59B9A68ADCF70F8CFA6EB10080BF53CDA49E67277943AAA08D8F26A2CCB1A153EE616F90E329C79A47730270BF48AE92B4530FA'
   checksumType   = 'sha512'
 }
 Get-ChocolateyWebFile @packageArgs
